@@ -39,3 +39,7 @@ Ranked in order (fastest to slowest):
 # Node.js without PM2 (single-threaded)
 
 ![alt text](https://github.com/YudiTan/concurrency-benchmark/blob/master/cpuheavy/nonpm2results.png)
+
+# Python Flask using pypy just-in-time compiler instead of cgo (using cgo would be too slow to even test) and running only 2 requests (any amount of requests above 3 time-outs the AB test)
+
+![alt text](https://github.com/YudiTan/concurrency-benchmark/blob/master/cpuheavy/pythonabtest.png)
