@@ -26,7 +26,11 @@ Apache Bench Result with 5 calls and 5 concurrent requests.
 
 Ranked in order (fastest to slowest):
 
-# Golang Benchmark
+# Golang with Redis Cache Benchmark
+
+![alt text](https://github.com/YudiTan/concurrency-benchmark/blob/master/cpuheavy/redisgo.png)
+
+# Pure Golang Benchmark
 
 ![alt text](https://github.com/YudiTan/concurrency-benchmark/blob/master/cpuheavy/goabtest.png)
 

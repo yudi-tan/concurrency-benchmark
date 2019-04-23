@@ -18,7 +18,8 @@ func serve(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, strconv.Itoa(tmp))
 }
 
+
 func main() {
 	http.HandleFunc("/", serve)
-	http.ListenAndServe(":1235", nil)
+	http.ListenAndServe(":1234", nil)
 }
