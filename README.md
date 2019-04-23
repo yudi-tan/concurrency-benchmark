@@ -26,7 +26,7 @@ Apache Bench Result with 5 calls and 5 concurrent requests.
 
 Ranked in order (fastest to slowest):
 
-# Golang with Redis Cache Benchmark
+# Golang with Redis Cache Benchmark (Note, this is running 1000 requests and that it is calculating Fibonacci 90 instead of 45!)
 
 ![alt text](https://github.com/YudiTan/concurrency-benchmark/blob/master/cpuheavy/redisgo.png)
 
